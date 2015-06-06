@@ -1,0 +1,77 @@
+#content-container {
+    background-image: url(../images/home-content-background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    opacity: 0.9;
+    padding: 10px 30px 30px 30px;
+}
+.content {
+    color:#333333;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.content h1, h2 {
+    cursor:pointer;
+    text-align: center;
+    font-size: 2em;
+}
+#startForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bigForm input {
+    border: 2px solid white; 
+    border-radius: 10px;
+    -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    margin: 10px 0 20px 0;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+input:focus {
+    outline: 0;
+}
+.bigForm input[type=submit]:hover {
+    background-color: #D4E5B9;
+}
+.bigForm input[type=submit]:focus {
+    background-color: #C4D5A9;
+    outline: 0px;
+}
+
+.bigForm textarea {
+    border: 2px solid white; 
+    border-radius: 10px;
+    -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    margin: 10px 0 20px 0;
+    font-size: 2em;
+    width: 100%;
+}
+
+.bigForm textarea:focus {
+    outline: 0;
+}

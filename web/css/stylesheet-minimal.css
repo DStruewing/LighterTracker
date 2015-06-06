@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2015, 1:03:35 AM
+    Author     : david
+*/
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;  /* bg pic will stretch when window is resized */
+    background-color: #EDEAE3; /* select color that matches your bg pic */
+    background-image: none;
+    background-position: center top;
+    font-size: 16px;
+}
+p {
+    line-height: 1.5em;
+}
+#container {
+    width: 750px;   
+    margin:auto;  /* this means center the container div (itself, not its contents) */
+    font-size: 14px;
+}
+#title {
+    text-align: center;
+    font-size: 7em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#nav {
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #DDDDDD;
+}
+.tab {
+    float:left;
+    font-size:1.3em;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right:1px;
+}
+.tab a {
+    text-decoration: none;
+    color: #333333;
+}
+.tab:hover {
+    background-color: #EEEEEE;
+}
+.newLine {
+    clear:both;
+}
+#content-container {
+    background-color: #EEEEEE;
+    opacity: 0.9;
+    padding: 10px 30px 30px 30px;
+}
+.selected {
+    background-color:#EEEEEE;
+}
+#footer {
+    text-align: right;
+    background-color: #DDDDDD;
+    padding: 5px 10px 5px 10px;
+    border-top: 1px solid #CCCCCC;
+    color: #555555;
+    font-style: italic;
+    font-size: 0.9em;
+}
+a {
+    font-size: .8em;
+    color: black;
+}
+
+.welcomeDiv {
+    text-align:right;
+    color:black;
+    font-weight: bold;
+}
+.welcomeDiv a {
+    color:black;
+    font-weight: bold;
+}
